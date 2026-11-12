@@ -5,18 +5,32 @@
 <!-- PORTADA -->
 <section class="hero-principal" id="inicio">
     <div class="container">
-        <div class="hero-contenido">
-            <span class="hero-etiqueta">TURISMO · CULTURA · EXPERIENCIAS</span>
+        <div class="hero-contenedor">
+            <div class="hero-contenido">
+                <span class="hero-etiqueta">TURISMO · CULTURA · EXPERIENCIAS</span>
 
-            <h1>Descubre experiencias que dejan huella</h1>
+                <h1>Descubre experiencias que dejan huella</h1>
 
-            <p>
-                Conoce nuestros eventos, descubre nuevos destinos
-                y disfruta de la riqueza turística y cultural de nuestra región.
-            </p>
+                <p>
+                    Conoce nuestros eventos, descubre nuevos destinos
+                    y disfruta de la riqueza turística y cultural de nuestra región.
+                </p>
 
-            <a href="#eventos" class="btn btn-principal">
-                Descubrir eventos
+                <a href="#eventos" class="btn btn-principal">
+                    Descubrir eventos
+                </a>
+            </div>
+
+            <a asp-controller="Rutas"
+                asp-action="CaminoIglesias"
+                class="hero-imagen">
+
+                <img src="~/Images/Camino-de-las-iglesias/Estaciones/16 estacion.jpg" 
+                alt="Camino de las iglesias" />
+
+                <span class="hero-imagen-texto">
+                    Descubre el Camino de las Iglesias
+                </span>
             </a>
         </div>
     </div>
