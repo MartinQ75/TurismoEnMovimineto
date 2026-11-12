@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "Camino de las Iglesias";
+
+    var estaciones = new[]
+    {
+        new {
+            Numero = 1,
+            Nombre = "Cristo del Consuelo",
+            Imagen = "primera estacion.jpg"
+        },
+        new {
+            Numero = 2,
+            Nombre = "Iglesia Santiago Apóstol",
+            Imagen = "segunda estacion.jpg"
+        },
+        new {
+            Numero = 3,
+            Nombre = "Iglesia de la Ermita \"Romería\"",
+            Imagen = "Tercera estacion.jpg"
+        },
+        new {
+            Numero = 4,
+            Nombre = "Iglesia de San Francisco de Asís",
+            Imagen = "cuarta estacion.jpg"
+        },
+        new {
+            Numero = 5,
+            Nombre = "Cristo de la Bartola Alumbrada",
+            Imagen = "quinta estacion.jpg"
+        },
+        new {
+            Numero = 6,
+            Nombre = "Frontera correspondiente a la Parroquia del Verbo Encarnado",
+            Imagen = "6 estacion.jpg"
+        },
+        new {
+            Numero = 7,
+            Nombre = "Iglesia de San Antonio de Padua",
+            Imagen = "REEMPLAZAR-ESTACION-07.jpg"
+        },
+        new {
+            Numero = 8,
+            Nombre = "Santo Niño de la Cruz",
+            Imagen = "REEMPLAZAR-ESTACION-08.jpg"
+        },
+        new {
+            Numero = 9,
+            Nombre = "Iglesia de San Buena Ventura",
+            Imagen = "9 estacion.jpg"
+        },
+        new {
+            Numero = 10,
+            Nombre = "Iglesia del Sacramento",
+            Imagen = "REEMPLAZAR-ESTACION-10.jpg"
+        },
+        new {
+            Numero = 11,
+            Nombre = "Iglesia de Nadadores",
+            Imagen = "11 estacion.jpg"
+        },
+        new {
+            Numero = 12,
+            Nombre = "Iglesia de La Madrid - Nuestra Señora del Rosario",
+            Imagen = "12 estacion.jpg"
+        },
+        new {
+            Numero = 13,
+            Nombre = "La Vega",
+            Imagen = "REEMPLAZAR-ESTACION-13.jpg"
+        },
+        new {
+            Numero = 14,
+            Nombre = "Virgen del Carmen - Puerto Canita de la Montaña",
+            Imagen = "REEMPLAZAR-ESTACION-14.jpg"
+        },
+        new {
+            Numero = 15,
+            Nombre = "Ejido El Venado",
+            Imagen = "REEMPLAZAR-ESTACION-15.jpg"
+        },
+        new {
+            Numero = 16,
+            Nombre = "Iglesia de San José",
+            Imagen = "16 estacion.jpg"
+        }
+    };
+}
+
+<section class="ruta-hero">
+    <div class="ruta-hero-contenido">
+        <span class="ruta-etiqueta">Turismo, cultura e historia</span>
+
+        <h1>Camino de las Iglesias</h1>
+
+        <p>
+            Un recorrido por el patrimonio religioso, cultural
+            y las tradiciones de nuestra región.
+        </p>
+
+        <a href="#recorrido" class="btn-ruta">
+            Explorar recorrido
+            <span>↓</span>
+        </a>
+    </div>
+</section>
+
+<section class="ruta-introduccion">
+    <div class="ruta-introduccion-contenido">
+        <span class="ruta-subtitulo">Una experiencia por descubrir</span>
+
+        <h2>16 estaciones, una historia que contar</h2>
+
+        <p>
+            Aquí podrás conocer los diferentes puntos que conforman
+            el Camino de las Iglesias. Descubre sus espacios,
+            tradiciones y el valor cultural de cada estación.
+        </p>
+    </div>
+</section>
+
+<section class="ruta-recorrido" id="recorrido">
+    <div class="ruta-encabezado">
+        <span class="ruta-subtitulo">El recorrido</span>
+        <h2>Descubre cada estación</h2>
+        <p>Explora los 16 puntos que forman parte de esta ruta.</p>
+    </div>
+
+    <div class="ruta-linea-tiempo">
+
+        @foreach (var estacion in estaciones)
+        {
+            <article class="estacion-ruta">
+
+                <div class="estacion-contenido">
+
+                    <div class="estacion-imagen">
+                        <img src="~/Images/Camino-de-las-iglesias/Estaciones/@estacion.Imagen"
+                             alt="@estacion.Nombre"
+                             loading="lazy" />
+                    </div>
+
+                    <div class="estacion-informacion">
+                        <span class="estacion-numero">
+                            Estación @estacion.Numero.ToString("00")
+                        </span>
+
+                        <h3>@estacion.Nombre</h3>
+
+                        <p>
+                            Agregar aquí la descripción e información
+                            correspondiente a esta estación.
+                        </p>
+
+                        <span class="estacion-detalle">
+                            Información próximamente
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="estacion-marcador">
+                    @estacion.Numero
+                </div>
+
+            </article>
+        }
+
+    </div>
+</section>
+
+<section class="ruta-cierre">
+    <span class="ruta-subtitulo">Turismo en movimiento</span>
+
+    <h2>Una ruta que conecta historia, cultura y tradición</h2>
+
+    <p>
+        Conoce el patrimonio de nuestra región y descubre
+        todo lo que hace especial este recorrido.
+    </p>
+</section>

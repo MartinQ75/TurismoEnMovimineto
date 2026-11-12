@@ -1,0 +1,90 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Turismo y Cultura</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/Logotipo/Asociacion civil turismo.jpeg"
+                         alt="Logotipo de la asociación"
+                         class="logo-asociacion" />
+                </a>
+
+                <a class="btn btn-unete"
+                   href="#"
+                   aria-label="Únete a la asociación">
+                    Únete
+                </a>
+
+                <!-- Botón del menú móvil - Bootstrap -->
+                <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Abrir o cerrar menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                
+     
+
+                <div class="collapse navbar-collapse" id="mainMenu">
+                    <div class="navbar-nav ms-auto">
+
+                        <a class="nav-link" asp-controller="Home"
+                           asp-action="Index" asp-fragment="inicio">
+                            Inicio
+                        </a>
+
+                        <a class="nav-link" asp-controller="Home"
+                           asp-action="Index" asp-fragment="eventos">
+                            Eventos
+                        </a>
+
+                        <a class="nav-link" asp-controller="Home"
+                           asp-action="Index" asp-fragment="rutas">
+                            Rutas
+                        </a>
+
+                        <a class="nav-link" asp-controller="Home"
+                           asp-action="Index" asp-fragment="contacto">
+                            Contacto
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="main-footer" id="contacto">
+        <div class="container text-center">
+            <h5>Turismo y Cultura</h5>
+            <p>Descubre, explora y vive nuevas experiencias.</p>
+            <small>© @DateTime.Now.Year - Todos los derechos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
