@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\Camino-de-las-iglesias\Estaciones\11 estacion.jpg
 wwwroot\Images\Camino-de-las-iglesias\Estaciones\12 estacion.jpg
@@ -16,6 +15,12 @@ wwwroot\Images\Festival-Globo\Festivla del globo.jpeg
 wwwroot\Images\gran-abrazo\El gran abrazo.jpeg
 wwwroot\Images\Logotipo\Asociacion civil turismo.jpeg
 wwwroot\Images\Papalotes\Festival del papalote.jpeg
+wwwroot\Images\Patrocinadores\Bosque Urbano.png
+wwwroot\Images\Patrocinadores\Central de dulces.jpeg
+wwwroot\Images\Patrocinadores\Futura Parque Industrial.png
+wwwroot\Images\Patrocinadores\Hecho en Monclova.png
+wwwroot\Images\Patrocinadores\Renault.jpeg
+wwwroot\Images\Patrocinadores\Suzuki.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -74,3 +79,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\site.css

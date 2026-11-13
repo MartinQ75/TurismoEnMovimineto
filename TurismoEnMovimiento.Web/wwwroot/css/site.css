@@ -1108,3 +1108,87 @@ body {
         height: 280px;
     }
 }
+
+
+
+/* ==============================
+   CINTILLA DE PATROCINADORES
+============================== */
+
+.seccion-patrocinadores {
+    padding: 55px 0;
+    background-color: #f8f9f7;
+    overflow: hidden;
+}
+
+.encabezado-patrocinadores {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .encabezado-patrocinadores h2 {
+        color: #163b36;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 8px;
+    }
+
+.cintilla-patrocinadores {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pista-patrocinadores {
+    display: flex;
+    width: max-content;
+    animation: mover-patrocinadores 20s linear infinite;
+}
+
+.grupo-patrocinadores {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 70px;
+    padding-right: 70px;
+}
+
+.patrocinador-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+    .patrocinador-item img {
+        max-width: 100%;
+        max-height: 85px;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+    }
+
+    .patrocinador-item:hover img {
+        transform: scale(1.08);
+    }
+
+@keyframes mover-patrocinadores {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.cintilla-patrocinadores:hover .pista-patrocinadores {
+    animation-play-state: paused;
+}
+
+/* Accesibilidad: evitar movimiento si el usuario lo solicita */
+@media (prefers-reduced-motion: reduce) {
+    .pista-patrocinadores {
+        animation: none;
+    }
+}
