@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|solutionrelative:turismoenmovimiento.web\\views\\shared\\patrocinadores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|c:\\users\\marti\\source\\repos\\turismoenmovimiento.web\\turismoenmovimiento.web\\controllers\\rutascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|solutionrelative:turismoenmovimiento.web\\controllers\\rutascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|c:\\users\\marti\\source\\repos\\turismoenmovimiento.web\\turismoenmovimiento.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|solutionrelative:turismoenmovimiento.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|c:\\users\\marti\\source\\repos\\turismoenmovimiento.web\\turismoenmovimiento.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|solutionrelative:turismoenmovimiento.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|c:\\users\\marti\\source\\repos\\turismoenmovimiento.web\\turismoenmovimiento.web\\controllers\\rutascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|solutionrelative:turismoenmovimiento.web\\controllers\\rutascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A772343-3BF9-4BDF-8179-27E4120DDABC}|TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web.csproj|c:\\users\\marti\\source\\repos\\turismoenmovimiento.web\\turismoenmovimiento.web\\views\\eventos\\papalotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -60,14 +60,14 @@
               "RelativeDocumentMoniker": "TurismoEnMovimiento.Web\\Views\\Shared\\Patrocinadores.cshtml",
               "ToolTip": "C:\\Users\\marti\\source\\repos\\TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web\\Views\\Shared\\Patrocinadores.cshtml",
               "RelativeToolTip": "TurismoEnMovimiento.Web\\Views\\Shared\\Patrocinadores.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-12T22:32:45.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RutasController.cs",
               "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web\\Controllers\\RutasController.cs",
               "RelativeDocumentMoniker": "TurismoEnMovimiento.Web\\Controllers\\RutasController.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "TurismoEnMovimiento.Web\\Controllers\\RutasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T20:20:36.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-09T20:20:36.241Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "TurismoEnMovimiento.Web\\Views\\Eventos\\Papalotes.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAANMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T23:53:55.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T23:53:55.125Z"
             },
             {
               "$type": "Document",
@@ -129,26 +127,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TurismoEnMovimiento.Web\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\marti\\source\\repos\\TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web\\wwwroot\\css\\site.css",
               "RelativeToolTip": "TurismoEnMovimiento.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAJQEAAAAAAAAAAAkwKYEAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAANwEAAAAAAAAAADwv+0EAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-11-07T19:05:20.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marti\\source\\repos\\TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TurismoEnMovimiento.Web\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\marti\\source\\repos\\TurismoEnMovimiento.Web\\TurismoEnMovimiento.Web\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "TurismoEnMovimiento.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-07T19:04:54.412Z",
               "EditorCaption": ""
