@@ -1,0 +1,133 @@
+﻿@model TurismoEnMovimiento.Web.ViewModel.SolicitudGemaViewModel
+
+@{
+    ViewData["Title"] = "GEMA";
+}
+
+<!-- PORTADA GEMA -->
+<section class="hero-gema">
+    <div class="container">
+        <div class="contenido-hero-gema">
+
+            <span class="texto-etiqueta">
+                GRUPO DE EXPERTOS MEXICANOS ASOCIADOS
+            </span>
+
+            <h1>Conoce GEMA</h1>
+
+            <p>
+                Un espacio para conocer el Grupo de Expertos Mexicanos
+                Asociados y descubrir cómo puedes formar parte de él.
+            </p>
+
+        </div>
+    </div>
+</section>
+
+<!-- INFORMACIÓN GEMA -->
+<section class="seccion-informacion-gema">
+    <div class="container">
+
+        <div class="contenido-informacion-gema">
+            <span class="texto-etiqueta">SOBRE GEMA</span>
+
+            <h2>Grupo de Expertos Mexicanos Asociados</h2>
+
+            <p>
+                Conoce la propuesta de GEMA, sus objetivos y las
+                oportunidades de integración. Aquí encontrarás
+                información sobre el grupo y el proceso para solicitar
+                tu incorporación.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SOLICITUD DE INTEGRACIÓN -->
+<section class="seccion-integracion-gema" id="solicitud">
+    <div class="container">
+
+        <div class="encabezado-seccion text-center mb-4">
+            <span class="texto-etiqueta">FORMA PARTE DE GEMA</span>
+            <h2>Solicitud de integración</h2>
+            <p>
+                Completa los siguientes datos para iniciar tu solicitud
+                de integración al grupo.
+            </p>
+        </div>
+
+        <div class="formulario-gema">
+
+            <form>
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label asp-for="Nombre" class="form-label"></label>
+                        <input asp-for="Nombre" class="form-control"
+                               placeholder="Nombre completo" />
+                        <span asp-validation-for="Nombre"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Direccion" class="form-label"></label>
+                        <input asp-for="Direccion" class="form-control"
+                               placeholder="Dirección completa" />
+                        <span asp-validation-for="Direccion"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Correo" class="form-label"></label>
+                        <input asp-for="Correo" class="form-control"
+                               type="email" placeholder="correo@ejemplo.com" />
+                        <span asp-validation-for="Correo"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Celular" class="form-label"></label>
+                        <input asp-for="Celular" class="form-control"
+                               type="tel" placeholder="Número de celular" />
+                        <span asp-validation-for="Celular"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Profesion" class="form-label"></label>
+                        <input asp-for="Profesion" class="form-control"
+                               placeholder="Profesión u ocupación" />
+                        <span asp-validation-for="Profesion"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Edad" class="form-label"></label>
+                        <input asp-for="Edad" class="form-control"
+                               type="number" min="1" max="120"
+                               placeholder="Edad" />
+                        <span asp-validation-for="Edad"
+                              class="text-danger"></span>
+                    </div>
+
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="button" class="btn btn-principal" disabled>
+                        Envío próximamente
+                    </button>
+                </div>
+
+                <p class="text-muted text-center mt-3 mb-0">
+                    El registro de solicitudes estará disponible próximamente.
+                </p>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+

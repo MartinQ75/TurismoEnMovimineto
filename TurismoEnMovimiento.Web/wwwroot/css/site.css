@@ -1259,3 +1259,167 @@ body {
             text-align: center;
         }
 }
+
+
+/* =========================================
+   PÁGINA GEMA
+========================================= */
+
+.hero-gema {
+    padding: 85px 0;
+    background-color: #163b36;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contenido-hero-gema {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .contenido-hero-gema .texto-etiqueta {
+        color: #b9d8c9;
+    }
+
+    .contenido-hero-gema h1 {
+        font-size: 42px;
+        font-weight: 700;
+        margin: 18px 0;
+    }
+
+    .contenido-hero-gema p {
+        font-size: 18px;
+        line-height: 1.7;
+        color: #e5eee9;
+        margin-bottom: 0;
+    }
+
+.seccion-informacion-gema {
+    padding: 75px 0;
+    background-color: #ffffff;
+}
+
+.contenido-informacion-gema {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .contenido-informacion-gema h2 {
+        color: #163b36;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 12px 0 20px;
+    }
+
+    .contenido-informacion-gema p {
+        color: #555555;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+.seccion-integracion-gema {
+    padding: 30px 0 75px;
+    background-color: #f3f6f3;
+}
+
+.tarjeta-integracion-gema {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+    .tarjeta-integracion-gema h2 {
+        color: #163b36;
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .tarjeta-integracion-gema p {
+        color: #555555;
+        margin: 15px 0 0;
+        line-height: 1.7;
+    }
+
+@media (max-width: 768px) {
+
+    .hero-gema {
+        padding: 65px 0;
+    }
+
+    .contenido-hero-gema h1 {
+        font-size: 34px;
+    }
+
+    .contenido-hero-gema p {
+        font-size: 16px;
+    }
+
+    .seccion-informacion-gema {
+        padding: 55px 0;
+    }
+
+    .contenido-informacion-gema h2 {
+        font-size: 25px;
+    }
+
+    .tarjeta-integracion-gema {
+        padding: 30px 22px;
+    }
+
+        .tarjeta-integracion-gema h2 {
+            font-size: 23px;
+        }
+}
+
+
+/* =========================================
+   FORMULARIO DE SOLICITUD GEMA
+========================================= */
+
+.formulario-gema {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+}
+
+    .formulario-gema .form-label {
+        color: #163b36;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    .formulario-gema .form-control {
+        min-height: 46px;
+        border: 1px solid #d8dfda;
+        border-radius: 8px;
+        padding: 10px 14px;
+    }
+
+        .formulario-gema .form-control:focus {
+            border-color: #23765b;
+            box-shadow: 0 0 0 3px rgba(35, 118, 91, 0.12);
+        }
+
+    .formulario-gema .text-danger {
+        display: block;
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    .formulario-gema button:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+    }
+
+@media (max-width: 768px) {
+    .formulario-gema {
+        padding: 25px 20px;
+    }
+}
+
