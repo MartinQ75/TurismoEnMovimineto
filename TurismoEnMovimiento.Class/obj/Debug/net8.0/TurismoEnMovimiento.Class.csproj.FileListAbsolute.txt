@@ -1,0 +1,13 @@
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\bin\Debug\net8.0\TurismoEnMovimiento.Class.deps.json
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\bin\Debug\net8.0\TurismoEnMovimiento.Class.dll
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\bin\Debug\net8.0\TurismoEnMovimiento.Class.pdb
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.csproj.AssemblyReference.cache
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.AssemblyInfoInputs.cache
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.AssemblyInfo.cs
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.csproj.CoreCompileInputs.cache
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.sourcelink.json
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.dll
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\refint\TurismoEnMovimiento.Class.dll
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\TurismoEnMovimiento.Class.pdb
+C:\Users\marti\source\repos\TurismoEnMovimiento.Web\TurismoEnMovimiento.Class\obj\Debug\net8.0\ref\TurismoEnMovimiento.Class.dll
