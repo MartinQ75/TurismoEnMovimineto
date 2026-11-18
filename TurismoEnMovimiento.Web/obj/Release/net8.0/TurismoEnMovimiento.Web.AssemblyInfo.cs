@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurismoEnMovimiento.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d398871e5b85003168516227c2a35127df36a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c735e00ea9c59bb425c39537c6ea36c3e5bc548")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurismoEnMovimiento.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurismoEnMovimiento.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

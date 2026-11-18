@@ -1423,3 +1423,84 @@ body {
     }
 }
 
+/* =========================================
+   OFICINA CENTRAL DE INFORMACIÓN Y MUSEO
+========================================= */
+
+.seccion-museo {
+    padding: 80px 0;
+    background-color: #f8f9f7;
+}
+
+.contenido-museo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.imagen-museo {
+    flex: 1;
+    min-width: 0;
+}
+
+    .imagen-museo img {
+        width: 100%;
+        max-width: 520px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 16px;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    }
+
+.texto-museo {
+    flex: 1;
+}
+
+    .texto-museo h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 12px 0;
+        color: #263b32;
+    }
+
+    .texto-museo h3 {
+        font-size: 1.35rem;
+        font-weight: 600;
+        color: #66865b;
+        margin-bottom: 18px;
+    }
+
+    .texto-museo p {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #555;
+        margin-bottom: 25px;
+    }
+
+/* DISEÑO PARA CELULARES */
+@media (max-width: 768px) {
+    .seccion-museo {
+        padding: 55px 0;
+    }
+
+    .contenido-museo {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imagen-museo,
+    .texto-museo {
+        width: 100%;
+    }
+
+        .imagen-museo img {
+            height: 260px;
+            max-width: 100%;
+        }
+
+        .texto-museo h2 {
+            font-size: 1.7rem;
+        }
+}

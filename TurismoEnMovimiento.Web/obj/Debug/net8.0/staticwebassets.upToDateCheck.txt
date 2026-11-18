@@ -15,6 +15,7 @@ wwwroot\Images\Camino-de-las-iglesias\Ruta del desierto.jpeg
 wwwroot\Images\Festival-Globo\Festivla del globo.jpeg
 wwwroot\Images\gran-abrazo\El gran abrazo.jpeg
 wwwroot\Images\Logotipo\Asociacion civil turismo.jpeg
+wwwroot\Images\Museo-Como-Si\Museo del Como Si.jpeg
 wwwroot\Images\Papalotes\Festival del papalote.jpeg
 wwwroot\Images\Patrocinadores\Bosque Urbano.png
 wwwroot\Images\Patrocinadores\Central de dulces.jpeg
